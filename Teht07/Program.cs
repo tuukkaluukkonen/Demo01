@@ -13,7 +13,7 @@ namespace Teht07
             Console.WriteLine("Anna vuosiluku > ");
             int vuosiluku = int.Parse(Console.ReadLine());
 
-            if (vuosiluku % 4 == 0 );
+            if (vuosiluku % 4 == 0  );
             
         }
     }
