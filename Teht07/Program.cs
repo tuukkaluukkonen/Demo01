@@ -13,8 +13,13 @@ namespace Teht07
             Console.WriteLine("Anna vuosiluku > ");
             int vuosiluku = int.Parse(Console.ReadLine());
 
-            if (vuosiluku % 4 == 0  );
-            
+            if (vuosiluku % 4 == 0 && vuosiluku % 100 != 0 || vuosiluku % 400 == 0)
+            Console.WriteLine("Vuosi on karkausvuosi");
+        
+      
+            else
+            Console.WriteLine("Vuosi ei ole karkausvuosi ");
+
         }
     }
 }
